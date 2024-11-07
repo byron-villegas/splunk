@@ -4,6 +4,12 @@ Splunk querys
 ## Basic Search Text
 We can pass text of search
 
+### Example Log
+
+```bash
+2024-11-07 00:38:28.417 Example Text
+```
+
 ### Query
 
 ```splunk
@@ -18,6 +24,12 @@ index=kubernetes_azure namespace="api" sourcetype=ms-example-util "Example Text"
 
 ## Get Field And Values Of Log Using Rex
 We can get fields and values using the rex function
+
+### Example Log
+
+```bash
+2024-11-07 00:38:28.417 ExampleDto(id=1, name=Cat)
+```
 
 ### Query
 
@@ -36,6 +48,12 @@ The function rex create two variables id and name, in this example the value for
 
 ## Get Field And Values Of Log Using Rex And Make Table
 We can get fields and values using the rex function and generate table by these fields and values
+
+### Example Log
+
+```bash
+2024-11-07 00:38:28.417 ExampleDto(id=1, name=Cat)
+```
 
 ### Query
 
