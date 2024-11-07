@@ -135,7 +135,6 @@ index=kubernetes_azure namespace="api" sourcetype=ms-example-util "ExampleDto" |
 
 | field | count |
 |-------|-------|
-
 | id    | 2     |
 
 ## Generate Stats Count By Field
