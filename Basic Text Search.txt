@@ -1,0 +1,1 @@
+index=kubernetes_azure namespace="api" sourcetype=ms-example-util "Example Text"
