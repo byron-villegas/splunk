@@ -1,0 +1,1 @@
+index=kubernetes_azure namespace="api" sourcetype=ms-example-util "Example Text" | rex "ExampleDto\(id=(?<id>[0-9]+), name=(?<name>[aA-zZ ]+))"
