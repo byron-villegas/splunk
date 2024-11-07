@@ -1,0 +1,1 @@
+index=kubernetes_azure namespace="api" sourcetype=ms-example-util "Example Error" | rex "ErrorDto\(code=(?<code>aA-zZ0-9]+), message=(?<message>[aA-zZ0-9 ]+))" | eval error=code+" : "+message | stats count by error
